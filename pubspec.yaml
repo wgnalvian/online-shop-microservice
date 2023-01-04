@@ -1,0 +1,56 @@
+name: olshop
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies:
+  app_settings: ^4.1.8
+  cloud_firestore: ^3.5.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.10.0
+  firebase_core: ^1.23.0
+  flutter:
+    sdk: flutter
+  flutter_map: ^2.2.0
+  flutter_signin_button: ^2.0.0
+  geocoding: ^2.0.5
+  geolocator: ^9.0.2
+  get: 4.6.5
+  google_sign_in: ^5.4.2
+  http: ^0.13.5
+  intl: ^0.17.0
+  latlong2: ^0.8.1
+  location: ^4.4.0
+  lottie: ^1.4.2
+  pausable_timer: ^1.0.0+6
+  restart_app: ^1.1.0+1
+  shared_preferences: ^2.0.15
+  smart_select: ^4.3.2
+
+dev_dependencies:
+  flutter_lints: 2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Travels
+      fonts:
+        - asset: 'asset/font/travel/TT Travels Next Light.ttf'
+          weight: 300
+        - asset: 'asset/font/travel/TT Travels Next Regular.ttf'
+          weight: 400
+        - asset: 'asset/font/travel/TT Travels Next Medium.ttf'
+          weight: 500
+        - asset: 'asset/font/travel/TT Travels Next DemiBold.ttf'
+          weight: 600
+        - asset: 'asset/font/travel/TT Travels Next Bold.ttf'
+          weight: 700
+          
+           
+  assets:
+    - 'asset/lottie/'
+    - 'asset/image/'
